@@ -1,0 +1,45 @@
+:root {
+  /* Primary Colors */
+  --background-color: #121212; /* Deep dark background */
+  --card-background: #1e1e1e; /* Slightly lighter dark for cards */
+  --accent-color: #00ff88; /* Vibrant green for highlights */
+
+  /* Text Colors */
+  --text-primary: #ffffff; /* White for main text */
+  --text-secondary: #b0b0b0; /* Soft gray for secondary text */
+
+  /* Hover and Borders */
+  --hover-color: #1a3a2f; /* Dark green for hover effects */
+  --border-color: #2a2a2a; /* Subtle border for cards */
+
+  /* Shadows and Highlights */
+  --shadow-color: rgba(0, 255, 136, 0.2); /* Green glow for shadows */
+  --highlight-color: rgba(255, 255, 255, 0.1); /* Subtle white highlight */
+}
+
+/* Basic Maths of website adjustments */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font family and text color */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-primary);
+}
+
+/* Basic body stylings */
+
+body {
+    background-color: var(--background-color);
+    font-size: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
